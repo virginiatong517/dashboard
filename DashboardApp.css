@@ -1,0 +1,61 @@
+.Dashboard-app {
+    padding: 30px;
+}
+
+.Dashboard-header {
+    margin: 20px;
+}
+
+.Scorecards-display-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid
+}
+
+.Scorecards-display-body {
+    padding: 20px;
+
+}
+
+.Scorecard-tile {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+}
+
+.Scorecard-tile-hover-options {
+    visibility: hidden;
+}
+
+.Scorecard-tile-hover-options button {
+    position: relative;
+    float: right;
+}
+
+.Scorecard-tile:hover .Scorecard-tile-hover-options {
+    visibility: visible;
+}
+
+.Scorecard-tile .Scorecard-tile-chart-title:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Chart-modal-form {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Chart-modal-preview {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+
